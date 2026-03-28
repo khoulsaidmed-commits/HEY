@@ -53,27 +53,27 @@ Export des données en PDF
 
  Structure du projet
 kamk/
-│
-├── dashboard_admin.php       # Interface administrateur
-├── dashboard_employe.php     # Interface employé
-├── dashboard_client.php      # Interface client
-│
-├── config/
-│   └── connexion.php         # Configuration base de données + clé API NGroq
-│
-├── modules/
-│   ├── reservations.php      # Gestion des réservations
-│   ├── contrats.php          # Génération des contrats
-│   ├── paiements.php         # Module de paiement
-│   ├── facturation.php       # Calcul automatique des factures
-│   ├── maintenance.php       # Suivi de la maintenance
-│   └── chatbot.php           # Intégration API Groq / LLaMA
-│
-├── assets/
-│   ├── css/                  # Feuilles de style
-│   └── js/                   # Scripts JavaScript
-│
-└── kamk_bd.sql               # Script d'import de la base de données (18 tables)
+
+ dashboard_admin.php       
+ dashboard_employe.php    
+ dashboard_client.php      
+
+config/
+  └── connexion.php         
+
+ modules/
+ reservations.php      # Gestion des réservations
+ contrats.php          # Génération des contrats
+ paiements.php         # Module de paiement
+ facturation.php       # Calcul automatique des factures
+ maintenance.php        # Suivi de la maintenance
+ chatbot.php           # Intégration API Groq / LLaMA
+
+ assets/
+  css/                  
+  js/                   
+
+ kamk_bd.sql               # Script d'import de la base de données (18 tables)
 
 # Tests réalisés
 Quatre niveaux de tests ont été conduits pour valider le système :
