@@ -58,8 +58,11 @@ kamk/
  dashboard_employe.php    
  dashboard_client.php      
 
+
 config/
   └── connexion.php         
+
+
 
  modules/
  reservations.php      # Gestion des réservations
@@ -69,9 +72,13 @@ config/
  maintenance.php        # Suivi de la maintenance
  chatbot.php           # Intégration API Groq / LLaMA
 
+
+
  assets/
   css/                  
   js/                   
+
+
 
  kamk_bd.sql               # Script d'import de la base de données (18 tables)
 
