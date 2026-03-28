@@ -65,12 +65,12 @@ config/
 
 
  modules/
- reservations.php      # Gestion des réservations
- contrats.php          # Génération des contrats
- paiements.php         # Module de paiement
- facturation.php       # Calcul automatique des factures
- maintenance.php        # Suivi de la maintenance
- chatbot.php           # Intégration API Groq / LLaMA
+ reservations.php      
+ contrats.php          
+ paiements.php         
+ facturation.php       
+ maintenance.php        
+ chatbot.php           
 
 
 
